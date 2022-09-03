@@ -21,4 +21,4 @@ def example_function():
 
 @app.get("/img/Anime1.png")
 async def read_image():
-    return FileResponse("example-photo.jpg")
+    return FileResponse("Anime1.png")
